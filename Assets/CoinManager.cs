@@ -35,6 +35,6 @@ public class CoinManager : MonoBehaviour
 
     void UpdateUI()
     {
-        coinText.text = $"ÄÚÀÎ: {collectedCoins} / {totalCoins}";
+        coinText.text = $"Coin: {collectedCoins} / {totalCoins}";
     }
 }
